@@ -69,3 +69,24 @@ h1 {
 .death-card p {
     font-size: 1rem;
 }
+
+.search-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-container input,
+.search-container select {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-container select {
+    cursor: pointer;
+}
