@@ -160,7 +160,7 @@ document.getElementById("death-form").addEventListener("submit", function(event)
     document.getElementById("death-form").reset();
 
     // Submit data to webhook (Discord)
-    const webhookUrl = "YOUR_DISCORD_WEBHOOK_URL";
+    const webhookUrl = "https://discord.com/api/webhooks/1305032174084423732/Aem8RBU_GflITGBxHImilgFg9uA_vpeOp-LjaTFlU1QbkkumzJ7Vn3_W1HtYCG2BojVr";
     fetch(webhookUrl, {
         method: "POST",
         headers: {
