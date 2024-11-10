@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Deaths</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://image.similarpng.com/very-thumbnail/2020/09/Halloween-skull-on-transparent-background-PNG.png" alt="Logo" class="logo">
+        <h1>Famous Deaths</h1>
+    </header>
+    
+    <div id="death-list">
+        <!-- Famous death entries will appear here -->
+    </div>
+
+    <h2>Submit New Famous Death</h2>
+    <form id="death-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="real-name">Real Name:</label>
+        <input type="text" id="real-name" name="real-name" required>
+
+        <label for="date-of-death">Date of Death:</label>
+        <input type="date" id="date-of-death" name="date-of-death" required>
+
+        <label for="cause-of-death">Cause of Death:</label>
+        <textarea id="cause-of-death" name="cause-of-death" required></textarea>
+
+        <label for="image-url">Image URL:</label>
+        <input type="url" id="image-url" name="image-url" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
